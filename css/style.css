@@ -22,20 +22,26 @@ body {
 }
 
 img{
-    max-width: 100%;
+    max-width: 80%;
     display: block;
+    margin: auto;
+    border-radius: 8px;
 }
 
 /*Style rules for the header*/
 header{
-    width: 80%;
+    text-align: center;
+    max-width: 80%;
     margin: auto; 
+    font-family: Sigmar,sans-serif;
 }
 
 /* Style rules for navigation area */
 nav {
   padding: 1%;
   margin-bottom: 1%;
+  max-width: 80%;
+  margin: auto;
 }
 
 nav ul {
@@ -63,7 +69,7 @@ nav li a {
 /* Style rules for main content */
 main{
     clear: left;
-    background: #fff;
+    background: #3aa988;
     padding: 2%;
     font-size: 1.25em;   
 }
@@ -82,4 +88,14 @@ main p{
 main h3{
     padding: 2%;
     font-size: 2em;
+}
+
+/* Style rules to show mobile class and hide tablet-desktop class*/
+
+.mobile{
+    display: block;
+}
+
+.tablet-desktop{
+    display: none;
 }
