@@ -18,6 +18,7 @@ body, header, nav, main, footer, h1, div, img, responsive {
 
 body {
     background-color: #000;
+    color: #fff;
 }
 
 img{
@@ -27,34 +28,36 @@ img{
 
 /*Style rules for the header*/
 header{
-    width: 25%;
-    float: left;
+    width: 80%;
+    margin: auto; 
 }
 
 /* Style rules for navigation area */
-nav{
-    width: 70%;
-    float: right; 
-    margin: 5em 3em 0 0;
-}
-nav ul{
-    list-style-type: none;
-    margin: 0;
-    text-align: center;
-}
-nav li{
-    display: inline-block;
-    font-size:1.5em;
-    font-family: Verdana, Arial, sans-seriff;
-    font-weight: bold;
+nav {
+  padding: 1%;
+  margin-bottom: 1%;
 }
 
-nav li a{
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 0.5em 1em;
-    text-decoration: none;
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  font-size: 1.5em;
+  font-family: "Francois One", sans-serif;
+  border-top: 1px solid #fff;
+}
+
+nav li:first-child{
+  border-top: none;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
 }
 
 /* Style rules for main content */
